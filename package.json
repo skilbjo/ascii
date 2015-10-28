@@ -1,0 +1,29 @@
+{
+  "name": "ascii",
+  "main": "ascii.js",
+  "version": "0.0.1",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skilbjo/ascii.git"
+  },
+  "engines": {
+    "node": "0.4.1"
+  },
+  "scripts": {
+    "start": "nodemon ascii.js" 
+    , "run": "nodemon ascii.js"
+  },
+  "dependencies": {
+    "underscore": "1.7.0"
+    , "request": "2.61.0"
+    , "sleep": "3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.2.1" 
+  },
+  "jshintConfig": {
+    "laxcomma": true
+    , "indent": 1
+  }
+}
